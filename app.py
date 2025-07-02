@@ -4,7 +4,8 @@ import plotly.express as px
 
 df = pd.read_csv('vehicles_us_cleaned.csv')
 
-st.header("Análisis exploratorio de datos")
+st.header("Proyecto Sprint 7")
+st.subheader("Implementación de una aplicación web con Streamlit")
 st.write("Esta aplicación, realiza un análisis exploratorio de datos del dataset \
          'vehicles_us_cleaned.csv', que es el dataframe 'vehicles_us', \
          ya procesado y con el formato adecuado para su visualización.")
